@@ -64,3 +64,37 @@ Constraints:
 <li>-10,000,000 <= target <= 10,000,000</li>
 <li>Only one valid answer exists.</li>
 </ul>
+
+
+<h1>Group Anagrams</h1>
+Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
+<br>
+An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
+<br>
+
+<code>
+Example 1:
+<br>
+Input: strs = ["act","pots","tops","cat","stop","hat"]
+<br>
+Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
+<br>
+Example 2:
+<br>
+Input: strs = ["x"]
+<br>
+Output: [["x"]]
+<br>
+Example 3:
+<br>
+Input: strs = [""]
+<br>
+Output: [[""]]
+</code>
+<br>
+Constraints:
+<ul>
+<li>1 <= strs.length <= 1000.</li>
+<li>0 <= strs[i].length <= 100</li>
+<li>strs[i] is made up of lowercase English letters.</li>
+</ul>
