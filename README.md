@@ -65,7 +65,7 @@ Constraints:
 <li>Only one valid answer exists.</li>
 </ul>
 
-
+<br><br>
 <h1>Group Anagrams</h1>
 Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
 <br>
@@ -97,4 +97,33 @@ Constraints:
 <li>1 <= strs.length <= 1000.</li>
 <li>0 <= strs[i].length <= 100</li>
 <li>strs[i] is made up of lowercase English letters.</li>
+</ul>
+
+<br><br>
+<h1>Top K Frequent Elements</h1>
+Given an integer array nums and an integer k, return the k most frequent elements within the array.
+<br>
+The test cases are generated such that the answer is always unique.
+<br>
+You may return the output in any order.
+
+<code>
+Example 1:
+<br>
+Input: nums = [1,2,2,3,3,3], k = 2
+<br>
+Output: [2,3]
+<br>
+Example 2:
+<br>
+Input: nums = [7,7], k = 1
+<br>
+Output: [7]
+</code>
+
+Constraints:
+<ul>
+<li>1 <= nums.length <= 10^4.</li>
+<li>-1000 <= nums[i] <= 1000</li>
+<li>1 <= k <= number of distinct elements in nums</li>
 </ul>
