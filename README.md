@@ -127,3 +127,37 @@ Constraints:
 <li>-1000 <= nums[i] <= 1000</li>
 <li>1 <= k <= number of distinct elements in nums</li>
 </ul>
+
+
+<br><br>
+<h1>Valid Palindrome</h1>
+Given a string s, return true if it is a palindrome, otherwise return false.
+<br>
+A palindrome is a string that reads the same forward and backward. It is also case-insensitive and ignores all non-alphanumeric characters.
+<br>
+Note: Alphanumeric characters consist of letters (A-Z, a-z) and numbers (0-9).
+<br>
+<code>
+Example 1:
+<br>
+Input: s = "Was it a car or a cat I saw?"
+<br>
+Output: true
+<br>
+Explanation: After considering only alphanumerical characters we have "wasitacaroracatisaw", which is a palindrome.
+<br>
+Example 2:
+<br>
+Input: s = "tab a cat"
+<br>
+Output: false
+<br>
+Explanation: "tabacat" is not a palindrome.
+<br>
+</code>
+<br>
+Constraints:
+<ul>
+<li>1 <= s.length <= 1000</li>
+<li>s is made up of only printable ASCII characters.</li>
+</ul>
