@@ -161,3 +161,8 @@ Constraints:
 <li>1 <= s.length <= 1000</li>
 <li>s is made up of only printable ASCII characters.</li>
 </ul>
+
+<br><br>
+<h1>Custom Sorting</h1>
+sort a list of strings primarily by their length, then by alphabetical order, then by number of vowels
+
