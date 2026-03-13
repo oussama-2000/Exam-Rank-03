@@ -168,4 +168,4 @@ sort a list of strings primarily by their length, then by alphabetical order, th
 
 <br><br>
 <h1>Merged List</h1>
-merge two lists into one sorted list
+merge two given lists into one sorted list
