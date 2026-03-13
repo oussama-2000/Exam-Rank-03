@@ -166,3 +166,6 @@ Constraints:
 <h1>Custom Sorting</h1>
 sort a list of strings primarily by their length, then by alphabetical order, then by number of vowels
 
+<br><br>
+<h1>Merged List</h1>
+merge two lists into one sorted list
