@@ -1,13 +1,11 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        new_s = ""
+        filtered = ""
         for i in s:
             if i.isalnum():
-                new_s += i.lower()
-        reversed = new_s[::-1]
-
-        return new_s == reversed
+                filtered += i
+        return filtered[::-1].lower() == filtered.lower()
 
 
 solution = Solution()
-print(solution.isPalindrome("non"))
+print(solution.isPalindrome("non?"))

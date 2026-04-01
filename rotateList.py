@@ -1,9 +1,11 @@
 
+# [1, 2, 3, 4] 2 -> [3, 4, 1, 2]
 def rotateList(li: list, k: int) -> list:
-    print(li[-k:])
-    print(li[:-k])
-    rotated = li[-k:] + li[:-k]
-    return rotated
+    for _ in range(k):
+        last_item = li[-1]
+        li.pop()
+        li.insert(0, last_item)
+    return li
 
 
 print(rotateList([1, 2, 3, 4], 2))
