@@ -1,9 +1,6 @@
 # ord
 # chr
-# "abc", 1 -> "bcd"   /   "abc",  90 -> ""
-# def shifting(str, k):
 
-# "Hello", 1 -> "Ifmmp"
 def shift_string(string: str, k: int) -> str:
 
     shifted = ""
